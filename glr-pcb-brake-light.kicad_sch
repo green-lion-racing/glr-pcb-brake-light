@@ -3411,7 +3411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:Wuerth_M12-Right-Angled-THT"
+		(property "Footprint" "GLR_KiCad_Library:Wuerth_M12-Panel-Cut-THT"
 			(at 34.29 27.94 0)
 			(hide yes)
 			(show_name no)
