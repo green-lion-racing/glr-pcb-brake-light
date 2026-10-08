@@ -3145,7 +3145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 88.9 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3238,7 +3238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 107.95 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3499,7 +3499,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3746,7 +3746,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 107.95 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3917,7 +3917,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4010,7 +4010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 125.73 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4103,7 +4103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 69.85 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4196,7 +4196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 125.73 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4289,7 +4289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4382,7 +4382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 125.73 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4553,7 +4553,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 69.85 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4646,7 +4646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 69.85 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4739,7 +4739,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 107.95 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4832,7 +4832,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4925,7 +4925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 125.73 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5018,7 +5018,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5111,7 +5111,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 125.73 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5204,7 +5204,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 88.9 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5297,7 +5297,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 107.95 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5390,7 +5390,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 69.85 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5483,7 +5483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 88.9 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5576,7 +5576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 107.95 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5833,7 +5833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 69.85 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5926,7 +5926,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
