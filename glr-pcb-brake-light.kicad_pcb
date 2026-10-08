@@ -988,6 +988,290 @@
 	)
 	(footprint "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 		(layer "F.Cu")
+		(uuid "2d42ab2f-d564-4fd1-b7ff-a7e6114fa256")
+		(at 25.41 177.495)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D29"
+			(at 0 -2.65 180)
+			(layer "F.SilkS")
+			(uuid "55b274fd-abbb-49d7-b58c-9868ac8fc5f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 180)
+			(layer "F.Fab")
+			(uuid "49830156-4ad6-4110-a8e0-41c4249bc94d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bc28057-b70b-4fb1-b24c-37318a76c32d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97b728da-4eab-481c-9d28-376e42ebf54f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08a85b42-03d2-40a8-a857-7b9740e0f190")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/ae18b769-07e9-43b1-bdcb-165fc8ae03bc")
+		(sheetname "/")
+		(sheetfile "glr-pcb-brake-light.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.5 1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1e1e9a7c-fbd6-4e5e-bfd7-bc2ce07ba8f7")
+		)
+		(fp_line
+			(start -2.5 1.6)
+			(end 2.5 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c88444ef-656c-4cb4-b7c2-2f99cd9df511")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "aa9a65ec-0392-48e7-9d31-519877e2bdd9")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4c2004de-c571-4abc-8c7e-488d6523b564")
+		)
+		(fp_line
+			(start 2.5 1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "216f5d65-0f46-4eca-b27e-53e7670c3dea")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5c7ad59c-97cf-4e08-b0de-93523fa1616a")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d3b820a9-a2bc-45b7-9804-ff77c8bd87e9")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "66781491-19e1-4cc8-bfd5-4f03aea5cb5a")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cb967b0f-91bd-4f87-82db-f3ae556eaef7")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d55d0af9-0e7a-4ad4-9b1b-726068ade63e")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a82a50ba-d884-4d10-a265-efe3480b886c")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f845b6ab-54da-4de0-a056-9714e8e83cc3")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "03ccebd2-57f3-4d66-a493-1c812ae03e6f")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1715478b-f416-4b5c-9981-223283af345d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c7ae483b-3039-4450-8ce3-3baf049a2cfd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "9d46cd63-abd3-460e-ab3a-d877c942d971")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D29-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "f62f3430-1629-4895-bd3f-b2ddd1381fc9")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D28-K)")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "a04ea245-f9d2-4c42-a58a-bbf4394f5bf7")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "5f462797-376c-476c-acc1-d29bb98bd370")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "63ce0d4a-9707-417a-bef4-462cae7cac7c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/GLR_KiCad_Library.3dshapes/LED_OSRAM_LR_T67F_20141217.STEP"
+			(offset
+				(xyz 0 0 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
 		(uuid "31572e7e-3268-4ab3-9071-5e4a135be8e7")
 		(at 148.21 104.64 180)
 		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
@@ -1840,6 +2124,290 @@
 	)
 	(footprint "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 		(layer "F.Cu")
+		(uuid "5288a70a-6e2e-4f4a-9099-8b66d902af68")
+		(at 25.41 186.195)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D31"
+			(at 0 -2.65 180)
+			(layer "F.SilkS")
+			(uuid "0294ad15-4685-412e-9b3b-7f17daa18a13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 180)
+			(layer "F.Fab")
+			(uuid "eb59e71b-e69e-4d81-adec-9058cd87088e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94ed3e7c-835d-4e73-8a1d-8d7fb1822cc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "594bdefe-5352-47b0-b94b-b5685f8f165f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d51ecb0-c6c7-4418-b65d-cf25fdeaf5f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/46808b24-6a4f-4a10-88a8-b7c18aad15ec")
+		(sheetname "/")
+		(sheetfile "glr-pcb-brake-light.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.5 1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eb2aa52b-5e9f-4378-b398-30eba9386326")
+		)
+		(fp_line
+			(start -2.5 1.6)
+			(end 2.5 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50eb459a-ffd4-4f4a-a4e6-01356e85a043")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2a2bc9af-5d24-4d3c-b49e-03454354e880")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "77f221d5-eb19-48a5-a878-7f89b1a98a85")
+		)
+		(fp_line
+			(start 2.5 1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "513bf028-7994-4d1e-9386-51ff9f7ac7b3")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "251e9a3b-7754-4d6b-ae68-876838458a51")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ea848459-9267-4743-a8e5-7d55f1ee4269")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4869b8d2-1e41-4bb3-b248-4034b6ece164")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "29de5873-1ca8-4c49-bbcf-1710daa85403")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7770c328-e466-42ae-bd5a-5741c871a3e5")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f5d7e451-a8be-4250-8d88-66a46839ad87")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f53eb575-d097-4c61-ae04-c8c022d834ef")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6089cb24-5393-4ed7-82d7-f6c4fce904a9")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cc565ec0-350d-46b9-b18a-61400abb6ac0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "413e61ce-781a-4d34-aced-5e709ec70fe6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "fc9417dd-7600-4809-9a63-5b6c2cac0dd2")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "eca1c811-31ac-4ca1-a20f-e8eaf5d6a2c5")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D30-K)")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "766262e4-18b4-4824-8e60-d3ef627b71c1")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "b7b77212-341b-468b-a1e9-adcc6780726c")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "8b75e0aa-ec95-43d6-9086-225272ed7072")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/GLR_KiCad_Library.3dshapes/LED_OSRAM_LR_T67F_20141217.STEP"
+			(offset
+				(xyz 0 0 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
 		(uuid "6486493a-64c7-4d4e-9344-20a2c62549ff")
 		(at 210.61 104.64 180)
 		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
@@ -2108,6 +2676,290 @@
 			(size 1.5 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "7b0b7a95-2666-47f5-b669-47862b50ad63")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/GLR_KiCad_Library.3dshapes/LED_OSRAM_LR_T67F_20141217.STEP"
+			(offset
+				(xyz 0 0 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "64a9e6a7-f070-416f-8ae3-716f2d1c0d9c")
+		(at 25.41 164.445)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D26"
+			(at 0 -2.65 180)
+			(layer "F.SilkS")
+			(uuid "897f1538-06bc-4852-8b64-6f031d109427")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 180)
+			(layer "F.Fab")
+			(uuid "fd3fc03f-1f97-4826-b29f-a525e67b6fd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28abe6f1-416e-40d6-ac47-41b39759e8b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bbaa56e-8fca-466e-8dbd-c4f4ba079c78")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f6587dc-75fe-4a81-9214-ade08544a11f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/8b1ab2fe-a51d-402d-8404-f50b63c0b23c")
+		(sheetname "/")
+		(sheetfile "glr-pcb-brake-light.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.5 1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8e14748a-e772-4ef0-bbd2-d52feaeb6d32")
+		)
+		(fp_line
+			(start -2.5 1.6)
+			(end 2.5 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d9d51242-f508-4902-9cb4-0a3b39659ad9")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "810278d1-f8e7-43e6-a21e-09c151e39126")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "02e6abbd-6f46-48c0-9fc6-44a347c318c0")
+		)
+		(fp_line
+			(start 2.5 1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c00fedd-32e3-4c36-bdc3-54cc117ac20f")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "393042c8-d30a-41bd-b15f-7e4cbefdcb32")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c43ef0b4-e2ac-423f-99df-7db7b8ac0ccf")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bfc9e3f0-6c02-4ca4-b611-ee6909eb5da3")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b483d698-09d7-43f3-9d74-2f572a098b15")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dbbeae33-28a2-44ac-850d-4fde2c85b4d5")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "753a1a6c-fe6c-4305-8193-d992a2ac25da")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cf495e72-5adb-4abd-a827-82f549ab83e7")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cd063abc-72ec-444b-b683-2728f10e016d")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d85fb7df-65f3-42d4-b7ca-48a32d5d7fe6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4a05464a-7e09-418a-944a-fe69e3cee0ba")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "2b940a73-1405-436d-bad4-2a2e4df7d3cf")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D26-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "27b7db54-01e4-44fd-9974-b4106c2e33ad")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D26-A)")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "a1bff2dd-7c66-43ec-b154-a890b4ba71d2")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "d9fd3fde-1c1d-45c9-bf8a-f24e7050c338")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "fecec758-8304-4f19-8b09-83c59c27fd39")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/GLR_KiCad_Library.3dshapes/LED_OSRAM_LR_T67F_20141217.STEP"
@@ -4394,6 +5246,448 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "9c0fa0e1-f7a8-4a39-bd8e-1ebb619eb436")
+		(at 32.985 164.725)
+		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor handsolder")
+		(property "Reference" "R5"
+			(at 0 -2.63 0)
+			(layer "F.SilkS")
+			(uuid "e863c4eb-fa84-4247-9b55-d276e9229f13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 0 2.63 0)
+			(layer "F.Fab")
+			(uuid "665314c1-b8dc-4c4d-ba44-321ee857d9b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cc9ef0d-2580-44bc-851f-ae2b7b1956a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3600f27d-0b97-41cb-b138-b5339b8ee819")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2a3975f0-e7b5-453b-92ae-01b360f26d19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/7d0baf7b-9927-4ce4-b26c-cf1ce6265766")
+		(sheetname "/")
+		(sheetfile "glr-pcb-brake-light.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.177064 -1.71)
+			(end 2.177064 -1.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "117923e4-07cb-422a-a0e5-1094232f16ca")
+		)
+		(fp_line
+			(start -2.177064 1.71)
+			(end 2.177064 1.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6d816295-218c-4390-ad6a-72d606d350b0")
+		)
+		(fp_rect
+			(start -4 -1.93)
+			(end 4 1.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "00b73911-eb6f-4544-9ff0-5e42ee2fc7b0")
+		)
+		(fp_rect
+			(start -3.15 -1.6)
+			(end 3.15 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "570a326a-7bb3-4f9a-8c29-2b7524d4669e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2c430fdc-3163-4e07-9195-8779db771b5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -3.05 0)
+			(size 1.4 3.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.178571)
+			(net "Net-(D0-K)")
+			(pintype "passive")
+			(uuid "7eaa1101-b23a-44a7-a2ae-53562551dab2")
+		)
+		(pad "2" smd roundrect
+			(at 3.05 0)
+			(size 1.4 3.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.178571)
+			(net "Net-(D26-A)")
+			(pintype "passive")
+			(uuid "86feac1a-42b5-4a4f-9ee5-a45b16636a7a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "ad832297-6b48-4440-9d0b-185886bcec79")
+		(at 25.41 173.145)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D28"
+			(at 0 -2.65 180)
+			(layer "F.SilkS")
+			(uuid "37be7909-fbde-4498-9460-bfdd18e24b1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 180)
+			(layer "F.Fab")
+			(uuid "84732521-1118-4a28-9641-b34d0e4906a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36a55129-4bb3-4925-866d-c4204ec0a78c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65762868-6f2d-43f9-bc99-488c1d778556")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea76793f-c85f-4b92-b232-ee6b76d0aecb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/dd2635fc-37c6-470b-bfb1-727736be675a")
+		(sheetname "/")
+		(sheetfile "glr-pcb-brake-light.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.5 1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "493cfab4-1fb2-4220-a8d8-13e3af5b83e0")
+		)
+		(fp_line
+			(start -2.5 1.6)
+			(end 2.5 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c574fd97-c420-4765-84ae-0b482451b43f")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f15e49bf-dc02-4ba7-b6b7-c5cf16bb8669")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7ca9d805-e811-424c-882d-134a10c412e7")
+		)
+		(fp_line
+			(start 2.5 1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cb48c3c0-cb2e-44b2-8261-d621b33e7da1")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9407e6c6-eb5e-4cc8-80bc-335b95dfa6c4")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3f79f61f-bef6-4124-8d31-c2115fad111e")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "47cdd688-c5df-43fa-8c56-ef5aa71061fb")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1252448c-5b0a-47da-8cd0-4dddd4759621")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf987f31-e86f-4db1-9de1-82dbe448b4a0")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b74ddaa3-b125-46cd-98aa-670b236283f7")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e164d399-d254-44c2-865d-5656bc35bebe")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7eb2aa8c-eb43-44fd-882c-7153fc46a698")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "227a5274-6b7c-4b2b-b3ac-a6c1c1c323ed")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "891e86e5-a487-4f46-b764-ed15ad396b1c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "5913aff6-5f88-4c49-9234-43c6a086fafb")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D28-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "a95310b1-8603-46d4-90e9-00b00ce328d0")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D27-K)")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "c4854d1f-0913-477e-80b6-13665b13ea73")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "7f636244-a58b-4d77-baec-d375624364e5")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "07e3e34b-5192-48ef-b6e0-e24c8246a1e6")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/GLR_KiCad_Library.3dshapes/LED_OSRAM_LR_T67F_20141217.STEP"
+			(offset
+				(xyz 0 0 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
 	(footprint "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 		(layer "F.Cu")
 		(uuid "b5b2b9b6-0681-4392-a819-eca0e6c498a4")
@@ -4664,6 +5958,290 @@
 			(size 1.5 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "c26425b7-018c-4599-9ab1-d60b2e65d8b2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/GLR_KiCad_Library.3dshapes/LED_OSRAM_LR_T67F_20141217.STEP"
+			(offset
+				(xyz 0 0 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "be36bb72-af40-48aa-a5b7-63dc1fa4f5db")
+		(at 25.41 168.795)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D27"
+			(at 0 -2.65 180)
+			(layer "F.SilkS")
+			(uuid "ba8ce27c-31c7-4120-bb37-9cbb61061060")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 180)
+			(layer "F.Fab")
+			(uuid "380b3c01-fd40-4ceb-a1de-47aa5c530abd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0ec49ae-036a-4ddf-aecf-968ee20bb09f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6796a20a-1376-4b60-b9d5-d73a45843a31")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e51ddb53-2340-40a6-8181-24481e51bb1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/091e9ad9-1c1c-4cb8-8fae-029d93edbecb")
+		(sheetname "/")
+		(sheetfile "glr-pcb-brake-light.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.5 1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f51fc054-7a5f-4d38-b275-b47501b5faa3")
+		)
+		(fp_line
+			(start -2.5 1.6)
+			(end 2.5 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "33f0eff6-2b02-4b98-bcf7-411504545a4d")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "96bb0c60-5dd4-4252-bf50-3ea3fa4bbeae")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "24459d79-0dc4-4770-b94c-26d8c8025fb7")
+		)
+		(fp_line
+			(start 2.5 1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c7c97742-400a-4749-998f-45415472eabc")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5c2e51a4-1ab4-4587-a91c-a319e3b87365")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "040d4e91-133d-47e3-8a77-736502f8a448")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a44d12a-0926-45ac-9824-a3d4ac0f11e6")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8137ef79-2cb3-4163-8597-a8ec910a4e49")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6e11a793-8119-47d3-8ae1-6262a452e33a")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "570b510a-9755-4d2a-9db1-f4540cff4e11")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c2db1723-3031-41d7-bca6-8d0f911a8707")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a5d865b3-af00-4a54-95c7-a7ce77f85233")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "92d85ef0-7d97-4eb7-babb-d80dcfe00adb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "dd623276-a4c6-460e-aaab-5b6c1fb7e874")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "c0d72356-0d80-435d-81ae-6b39b04acc91")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D27-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "243c78e0-a976-4864-99d3-b854247bff27")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D26-K)")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "f0673ae0-00c6-4c57-b5b5-589f02070276")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "cbb88411-a69e-4be5-83f2-dd3232e19e86")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "a1d8a9f7-bfa1-4433-8155-ff4799ad6dbb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/GLR_KiCad_Library.3dshapes/LED_OSRAM_LR_T67F_20141217.STEP"
@@ -6832,6 +8410,290 @@
 	)
 	(footprint "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
 		(layer "F.Cu")
+		(uuid "ce538671-302b-451a-ab06-ae58164689d8")
+		(at 25.41 181.845)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D30"
+			(at 0 -2.65 180)
+			(layer "F.SilkS")
+			(uuid "d0e4774c-72ae-46be-9b75-64dcf3cbccf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 180)
+			(layer "F.Fab")
+			(uuid "ebb66e9b-fee5-47d5-8b25-b0cc281587b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c09c690d-2780-4686-8ec2-a3c39e331b48")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc1b83e2-3a90-400f-a13b-95e3a772b4b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3206c09a-7ee4-450c-9504-c34e9ccb6d7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/aebc3c52-4405-403d-b2c1-cd0966191d40")
+		(sheetname "/")
+		(sheetfile "glr-pcb-brake-light.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.5 1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1d3af040-35fe-4381-9497-2fd8659b11aa")
+		)
+		(fp_line
+			(start -2.5 1.6)
+			(end 2.5 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a8d73c8c-9174-45be-848e-81bd34b3475b")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end -2.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cce5e8fe-d90a-4169-8288-8f178ec187a3")
+		)
+		(fp_line
+			(start -2.2 -1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6686b5e9-603d-4b07-a1bb-119c36dad7ca")
+		)
+		(fp_line
+			(start 2.5 1.6)
+			(end 2.5 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ea508c13-d12f-4311-9467-44c63f80e89b")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6f40e686-f35d-4a01-b676-ed74b38bc3a9")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fe32c9ad-ecb9-416a-92b0-aa5101d5eb14")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "86661155-95a7-4347-b1c8-1bf64482b4ff")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4d237aa6-111a-476a-9800-97247e7d003a")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "634ce84b-7035-4732-b75b-0db92263e411")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "54fbf0e2-f2cf-4e80-878f-0668fd7acd33")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c77eae1-d683-4934-adce-b06cfc494f19")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "46388b1b-ae18-4d4d-af3d-521ffc7c4fc7")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f5d40087-5571-477d-a58d-01e1c8bd780f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c3256f15-23d2-4947-8f91-70c326d60bc1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "11fd9d9d-23b9-4abe-a692-a639b2ace2f5")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D30-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "8ae44cee-5a3b-4f4b-a458-4dbd9337a26e")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(D29-K)")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "422bcfc0-1bca-40b4-88e6-6afe8517d9cf")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "4304c84b-df4d-438d-af4d-f2fdd0cc7fb9")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "453167e9-818b-4a06-9554-4d0464c6d626")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/GLR_KiCad_Library.3dshapes/LED_OSRAM_LR_T67F_20141217.STEP"
+			(offset
+				(xyz 0 0 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
 		(uuid "cf0afbf6-a460-453f-87c3-e2f9229a9a70")
 		(at 137.81 104.64 180)
 		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
@@ -8672,7 +10534,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.178571)
-			(net "Net-(D25-K)")
+			(net "Net-(D0-K)")
 			(pintype "passive")
 			(uuid "a6495cb4-c21d-4e84-97ee-421c925dfd1d")
 		)
@@ -8836,7 +10698,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.178571)
-			(net "Net-(D25-K)")
+			(net "Net-(D0-K)")
 			(pintype "passive")
 			(uuid "1c9178e1-30e9-432b-a4e0-0094bddf14eb")
 		)
@@ -9000,7 +10862,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.178571)
-			(net "Net-(D25-K)")
+			(net "Net-(D0-K)")
 			(pintype "passive")
 			(uuid "43bab5ad-9870-4f2e-ad95-d5255523ee95")
 		)
@@ -9164,7 +11026,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.178571)
-			(net "Net-(D25-K)")
+			(net "Net-(D0-K)")
 			(pintype "passive")
 			(uuid "2d12f2db-4548-43d9-b6f7-514aefd1e658")
 		)
@@ -9196,7 +11058,7 @@
 		(at 141.074 95.49)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
-		(property "Reference" "D25"
+		(property "Reference" "D0"
 			(at 0 2.5 180)
 			(layer "B.SilkS")
 			(uuid "ef54e156-78ca-4fe9-9e09-16450283820b")
@@ -9208,7 +11070,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1N5822"
+		(property "Value" "STPS1L60"
 			(at 0 -2.6 180)
 			(layer "B.Fab")
 			(uuid "1699fb8d-2e2b-4034-a615-2eba7f63ff9c")
@@ -9447,7 +11309,7 @@
 			(size 2.5 1.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1388888889)
-			(net "Net-(D25-K)")
+			(net "Net-(D0-K)")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "07ab6576-3ada-4f8d-bad4-e1f2feaa610c")
