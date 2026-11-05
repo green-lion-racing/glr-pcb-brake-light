@@ -2531,7 +2531,7 @@
 		(at 100.33 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad2e6f0e-8fe0-4415-9be2-c9f64c6306a8")
+		(uuid "920c19ce-05bc-4202-b8ff-9b1bea37e8b9")
 	)
 	(junction
 		(at 88.9 137.16)
@@ -2552,16 +2552,6 @@
 	(no_connect
 		(at 39.37 30.48)
 		(uuid "9b9656f2-e0ff-42d7-b661-5d3f154eb4ac")
-	)
-	(wire
-		(pts
-			(xy 100.33 137.16) (xy 100.33 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "030155b4-1c90-4329-8edc-8c0b2f240346")
 	)
 	(wire
 		(pts
@@ -2635,13 +2625,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 25.4) (xy 49.53 25.4)
+			(xy 100.33 137.16) (xy 100.33 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "223914c8-629b-43f1-9a97-6d6cd28b27c7")
+		(uuid "26949734-c0c5-4f4d-9a1f-b430bf0f1bc6")
 	)
 	(wire
 		(pts
@@ -2662,6 +2652,16 @@
 			(type default)
 		)
 		(uuid "2f47f11a-400f-4519-9d98-3975bff56bcb")
+	)
+	(wire
+		(pts
+			(xy 100.33 137.16) (xy 107.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33696795-4160-4802-8fc5-2179f3e101df")
 	)
 	(wire
 		(pts
@@ -2935,13 +2935,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 137.16) (xy 107.95 137.16)
+			(xy 39.37 25.4) (xy 49.53 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccb0fd31-e6f1-44d3-a50f-32a45ac5d072")
+		(uuid "cc5449ec-a16a-4aa0-8805-cd5e903f8853")
 	)
 	(wire
 		(pts
@@ -3052,84 +3052,6 @@
 			(type default)
 		)
 		(uuid "ff8bf4d1-25af-451e-b6f4-4c30cced7faf")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0564f35a-0b19-42f3-8c0a-56f8dd0c7baf")
-		(property "Reference" "#PWR01"
-			(at 100.33 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4bb5a81-97d6-4f53-aa69-69600c90e423")
-		)
-		(instances
-			(project "glr-pcb-brake-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3247,7 +3169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 144.78 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3340,7 +3262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 88.9 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3433,7 +3355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 107.95 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3694,7 +3616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3748,84 +3670,6 @@
 			(project "glr-pcb-brake-light"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 99.06 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "269eb9ee-1e83-4dad-9ad4-42cca8d9f863")
-		(property "Reference" "#PWR04"
-			(at 99.06 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 99.06 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 99.06 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "455729c4-4b36-47e4-9f10-95f6411eecd5")
-		)
-		(instances
-			(project "glr-pcb-brake-light"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3941,7 +3785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 107.95 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4079,6 +3923,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 99.06 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bfd4c50-3612-42ef-a035-61404f1cb9f5")
+		(property "Reference" "#PWR04"
+			(at 99.06 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 99.06 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 99.06 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b2e49e8-e634-4651-84c4-840056f84dfc")
+		)
+		(instances
+			(project "glr-pcb-brake-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 144.78 125.73 90)
 		(unit 1)
@@ -4112,7 +4034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 144.78 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4172,6 +4094,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 100.33 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46bd9415-84a2-41eb-b346-13722fee95cb")
+		(property "Reference" "#PWR05"
+			(at 100.33 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d18116eb-0555-4efc-af2a-5d1e94878ddd")
+		)
+		(instances
+			(project "glr-pcb-brake-light"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 125.73 125.73 90)
 		(unit 1)
@@ -4205,7 +4205,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4298,7 +4298,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 125.73 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4391,7 +4391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 69.85 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4484,7 +4484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 125.73 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4577,7 +4577,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4670,7 +4670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 125.73 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4923,7 +4923,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 69.85 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5016,7 +5016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 144.78 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5109,7 +5109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 69.85 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5202,7 +5202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 107.95 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5295,7 +5295,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5388,7 +5388,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 125.73 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5481,7 +5481,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5574,7 +5574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 144.78 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5667,7 +5667,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5760,7 +5760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 125.73 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5853,7 +5853,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 88.9 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5946,7 +5946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 107.95 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6039,7 +6039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 69.85 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6132,7 +6132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 88.9 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6225,7 +6225,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 107.95 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6482,7 +6482,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 69.85 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6575,7 +6575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 144.78 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6668,7 +6668,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GLR_KiCad_Library:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "GLR_KiCad_Library:LED_PLCC4_Osram"
 			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
